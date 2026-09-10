@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 int main() {
-    printf("   /\\\n");
-    printf("  /  \\\n");
-    printf(" /    \\\n");
-    printf("/      \\\n");
-    printf("--------\n");
-    printf("\\      /\n");
-    printf(" \\    /\n");
-    printf("  \\  /\n");
-    printf("   \\/\n");
+    puts("   /\\\n");
+    puts("  /  \\\n");
+    puts(" /    \\\n");
+    puts("/      \\\n");
+    puts("--------\n");
+    puts("\\      /\n");
+    puts(" \\    /\n");
+    puts("  \\  /\n");
+    puts("   \\/\n");
 
     return 0;
 }
