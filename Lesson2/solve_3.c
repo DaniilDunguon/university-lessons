@@ -6,15 +6,13 @@ int main() {
 
     int n = 3, L = 333, k = 3, m = 3;
 
-    double result = (double)n / L;
-
-    printf("%-20s\n", "Дано:");
+    printf("%-20s\n", "Р”Р°РЅРѕ:");
     printf("%20d\n", n);
     printf("%20d\n", L);
     printf("%20s\n", "___________");
     
-    printf("%-20s\n", "Ответ:");
-    printf("%+0*.*f\n", k + m + 2, m, result);
+    printf("%-20s\n", "РћС‚РІРµС‚:");
+    printf("%+0*.*f\n", k + m, m - 1, ((n * 1.) / (L * 1.)));
 
     return 0;
 }
