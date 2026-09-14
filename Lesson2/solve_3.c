@@ -4,7 +4,7 @@
 int main() {
     setlocale(LC_ALL, "RUS");
 
-    int n = 3, L = 333, k = 3, m = 3;
+    int n = 2, L = 133, k = 2, m = 4;
 
     printf("%-20s\n", "Дано:");
     printf("%20d\n", n);
