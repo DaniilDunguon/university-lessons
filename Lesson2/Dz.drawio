@@ -1,0 +1,16 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="DT0WzdU1W8IpJ94SF9LA">
+    <mxGraphModel dx="2009" dy="1189" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BRm0zlUE1g7paMousuS8-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="&lt;div&gt;Определить путь, который проедут санки с горки высотой h метров, углом наклона А&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;радиан и коэффициентом трения k.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="260" x="40" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="BRm0zlUE1g7paMousuS8-6" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" value="Начало" vertex="1">
+          <mxGeometry height="100" width="160" x="500" y="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
