@@ -7,8 +7,32 @@
         <mxCell id="BRm0zlUE1g7paMousuS8-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="&lt;div&gt;Определить путь, который проедут санки с горки высотой h метров, углом наклона А&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;радиан и коэффициентом трения k.&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="260" x="40" y="160" as="geometry" />
         </mxCell>
-        <mxCell id="BRm0zlUE1g7paMousuS8-6" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" value="Начало" vertex="1">
+        <mxCell id="BS2eg0QgHWKRJXaTO8xX-1" edge="1" parent="1" source="BRm0zlUE1g7paMousuS8-6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BRm0zlUE1g7paMousuS8-6" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Начало&lt;/b&gt;&lt;/font&gt;" vertex="1">
           <mxGeometry height="100" width="160" x="500" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BS2eg0QgHWKRJXaTO8xX-3" edge="1" parent="1" source="BS2eg0QgHWKRJXaTO8xX-2" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="585" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BS2eg0QgHWKRJXaTO8xX-2" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Ввод h, k, A&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="190" x="490" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="BS2eg0QgHWKRJXaTO8xX-6" edge="1" parent="1" source="BS2eg0QgHWKRJXaTO8xX-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BS2eg0QgHWKRJXaTO8xX-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;s = h / k - h / tan(A)&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="220" x="480" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="BS2eg0QgHWKRJXaTO8xX-7" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Вывод s" vertex="1">
+          <mxGeometry height="90" width="160" x="500" y="680" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
