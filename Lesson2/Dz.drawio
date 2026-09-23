@@ -34,6 +34,12 @@
         <mxCell id="BS2eg0QgHWKRJXaTO8xX-7" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Вывод s" vertex="1">
           <mxGeometry height="90" width="160" x="500" y="680" as="geometry" />
         </mxCell>
+        <mxCell id="BS2eg0QgHWKRJXaTO8xX-8" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Конец&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="100" width="160" x="500" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="BS2eg0QgHWKRJXaTO8xX-9" edge="1" parent="1" source="BS2eg0QgHWKRJXaTO8xX-7" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" target="BS2eg0QgHWKRJXaTO8xX-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
