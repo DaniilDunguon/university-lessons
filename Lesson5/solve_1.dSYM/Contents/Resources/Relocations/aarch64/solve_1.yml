@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/daniil/Documents/GitHub/university-lessons/Lesson5/solve_1'
+relocations:     []
+...
