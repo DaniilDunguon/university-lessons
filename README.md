@@ -2,11 +2,8 @@
 #include <math.h> 
 #include <locale.h>
 
-double rashet_chisl(int x, int y) {
+double rashet_chisl(double x, double y) {
     double abs_xy = fabs(x - y);
-
-    // кубический корень
-    double part1 = cbrt(pow(x, 6) + pow(log(y), 2));
 
     // дробь 
     double chislitel = exp(abs_xy) * pow(abs_xy, x + y);
@@ -14,7 +11,7 @@ double rashet_chisl(int x, int y) {
     return chislitel;
 }
 
-double rashet_znamen(int x, int y, int z) {
+double rashet_znamen(double x, double y, double z) {
     double znamenatel = atan(x) + atan(z);
 
     return znamenatel;
@@ -27,6 +24,9 @@ int main() {
     x = -2.235e-2;   
     y = 2.23;
     z = 15.221;
+
+    // кубический корень
+    part1 = cbrt(pow(x, 6) + pow(log(y), 2));
 
     chislitel = rashet_chisl(x, y);
     znamenatel = rashet_znamen(x, y, z);
@@ -43,6 +43,3 @@ int main() {
 
     return 0;
 }
-
-
-// Tilka lox
