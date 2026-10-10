@@ -8,7 +8,7 @@ int condiction(int x) {
     if (x > 3) {
             result = -3 * x + 9;
         } 
-    else if (x <= 3) {
+    else{
         result = pow(x, 3) / (pow(x, 2) + 8);
     };
 
@@ -21,6 +21,10 @@ int main() {
     int x, result;
     
     result = condiction(x);
+
+    if (result == NULL) {
+        printf("Ошибка ввода!")
+    }
 
     printf("%d\n", result);
 
